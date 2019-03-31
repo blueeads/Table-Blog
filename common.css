@@ -1,0 +1,231 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: #4286f4;
+    border: 1px solid #4286f4;
+    color: #ffffff; /* #000000 검정색, #ffffff 하얀색 */
+    padding: 3px 8px;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #2e5fad;
+    border: 1px solid #2e5fad;
+}
+
+button:focus {
+    outline: none;
+}
+
+#content-box {
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+#login-box {
+    width: calc(30% - 20px);
+    float: left;
+    height: 450px;
+    margin-right: 20px;
+}
+
+#login-box .login-text {
+    border-top: 1px solid #ccc;
+    padding: 5px 0;
+}
+
+#login-box #login-form {
+    display: inline-block;
+    width: 100%;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+}
+
+#login-box .btn-form {
+    display: inline-block;
+}
+
+#login-box input {
+    width: 100%;
+    padding: 5px 0px 5px 0px;
+}
+
+#login-user-id {
+    font-weight: bold;
+}
+
+#login-img {
+    width: 100%;
+    height: 200px;
+    border: 1px solid gray;
+    margin-top: 10px;
+}
+
+#login-box-button-row {
+    text-align: right;
+    margin-top: 10px;
+}
+
+#board-box {
+    width: 70%;
+    float: left;
+    height: 450px;
+}
+
+#header-box {
+    width: 20%;
+    display: inline-block;
+    border-bottom: 1px solid #cccccc;
+    height: 80px;
+    float: left;
+}
+
+#header-box-text {
+    line-height: 80px;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+#menu-box {
+    display: inline-block;
+    width: 80%;
+    height: 30px;
+    float: left;
+    padding: 25px 0;
+}
+
+#menu-box ul, #menu-box li {
+    list-style: none;
+}
+
+#menu-box ul {
+    margin: 0;
+    padding: 0;
+}
+
+#menu-box #menu .main-menu {
+    float: left;
+    line-height: 30px;
+    padding: 0 60px;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+#menu-box #menu .main-menu:hover ul {
+    height: 93px;
+}
+
+#menu-box #menu .main-menu ul {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    background-color: #4475c4;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s ease;
+}
+
+#menu-box #menu .main-menu ul li {
+    border-bottom: 1px solid #cccccc;
+    color: #ffffff;
+    text-align: center;
+}
+
+#footer-box {
+    text-align: center;
+    border-top: 1px solid #cccccc;
+}
+
+#table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#table .center {
+    text-align: center;
+}
+
+#table-button-row {
+    text-align: right;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+th, td {
+    border-top: 1px solid #ccc;
+    line-height: 30px;
+}
+
+.view-box {
+    border-top: 1px solid #ccc;
+}
+
+.view-box .line {
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.view-box .content-line {
+    min-height: 250px;
+}
+
+.view-box .line textarea {
+    width: calc(100% - 6px);
+    min-height: 300px;
+    float: left;
+}
+
+.view-box .line .section {
+    float: left;
+    line-height: 30px;
+}
+
+.view-box .line .left-section {
+    width: calc(30% - 1px);
+    border-right: 1px solid #ccc;
+    font-weight: bold;
+}
+
+.view-box .line .right-section {
+    width: 70%;
+    text-indent: 10px;
+}
+
+.view-box .btn-row {
+    text-align: right;
+    margin: 5px 0;
+}
+
+.view-box form {
+    display: inline-block; /* none, block, inline, inline-block, flex */
+}
+
+/* .view-box {
+    border-top: 1px solid #ccc;
+}
+
+.view-box .line {
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+}
+
+.view-box .line .section {
+    float: left;
+    line-height: 30px;
+}
+
+.view-box .line .left-section {
+    width: calc(30% - 1px);
+    border-right: 1px solid #ccc;
+    font-weight: bold;
+}
+
+.view-box .line .right-section {
+    width: 70%;
+} */

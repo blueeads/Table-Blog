@@ -1,0 +1,41 @@
+#slide-box-wrap {
+    width: 1000px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    border-bottom: 1px solid #cccccc;
+}
+
+#slide-box-wrap .slide-btn {
+    position: absolute;
+    top: 10px;
+}
+
+#slide-pos-box {
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+#slide-pos-box .active {
+    background-color: #2e5fad;
+}
+
+#slide-box-wrap #slide-right-btn {
+    right: 0;
+}
+
+#slide-box {
+    width: 3000px;
+    height: 200px;
+    position: relative;
+    left: 0px;
+    transition: left 1s ease;
+}
+
+#slide-box img {
+    width: 1000px;
+    height: 200px;
+    float: left;
+}
