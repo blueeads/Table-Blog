@@ -1,0 +1,25 @@
+<script src="./jquery-3.1.0.min.js"></script> 
+<script type="text/javascript">
+      $(document).ready(function(){
+         $(".header").load("header.html")
+         $(".left-slide").load("left-sidebar.html")
+         $(".footer").load("footer.html");
+        /* id 지정을 통해서도 가능합니다. 
+         $("#header").load("header.html #navbar")
+         */       
+      });
+</script>   
+<div class = "header"></div>
+<div class = "left-slide"></div>
+
+<div class = "main">
+    <div class = "main-content">
+        <div class = "row">
+            <iframe width="1200px" height="600px"
+            src="https://vclock.kr/embed/timer/#theme=0&ampm=1&sound=xylophone" frameborder="0" allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+</div>
+
+<div class = "footer"></div>

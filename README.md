@@ -1,6 +1,5 @@
-# table-blog
+# Timer
 
-The login function and writing function were applied using php.
+https://vclock.kr/님의 페이지를 모방하여 디자인하였습니다.
 
-
-The design part is still pre-corrected.
+개발 기간 : 2019.03.15 ~ 진행 중
